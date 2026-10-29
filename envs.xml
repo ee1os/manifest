@@ -3,10 +3,10 @@
      Everything else is GrapheneOS's manifest unchanged. -->
 <manifest>
   <remote name="os-ivan-gg" fetch="https://github.com/os-ivan-gg/"/>
-  <extend-project name="platform_build" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
-  <extend-project name="platform_frameworks_base" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
-  <extend-project name="platform_packages_apps_Settings" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
-  <extend-project name="platform_packages_apps_SetupWizard2" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
-  <extend-project name="platform_packages_apps_Updater" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
-  <extend-project name="platform_system_sepolicy" remote="os-ivan-gg" revision="refs/heads/envs-17"/>
+  <extend-project name="platform_build" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
+  <extend-project name="platform_frameworks_base" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
+  <extend-project name="platform_packages_apps_Settings" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
+  <extend-project name="platform_packages_apps_SetupWizard2" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
+  <extend-project name="platform_packages_apps_Updater" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
+  <extend-project name="platform_system_sepolicy" remote="os-ivan-gg" revision="refs/tags/2026102100.os"/>
 </manifest>
